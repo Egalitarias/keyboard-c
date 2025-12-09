@@ -1,4 +1,4 @@
-#include "keybaord.h"
+#include "keyboard.h"
 
 bool start_keyboard() {
     return false;
@@ -7,7 +7,7 @@ bool stop_keyboard() {
     return false;
 }
 char readchar_keyboard() {
-    return NULL;
+    return 0;
 }
 
 
